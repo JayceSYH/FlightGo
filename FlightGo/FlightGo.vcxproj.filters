@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Draw">
+      <UniqueIdentifier>{e77e4be8-c4e2-46ae-b85f-9355c6e92a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Draw">
+      <UniqueIdentifier>{67be99f1-2bec-42c4-85dd-75f2bc6ecf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Region">
+      <UniqueIdentifier>{37ab5b62-3002-4b7a-b1f1-8cbe8ed4a184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Exceptions">
+      <UniqueIdentifier>{e4a75d96-4ab1-41d9-b884-512667f603f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Event">
+      <UniqueIdentifier>{4fea77f3-d899-4191-b6c0-f6fe17a52a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Event">
+      <UniqueIdentifier>{d1a1b8c1-db05-4a93-b73b-8dd5bdbaf95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\libs">
+      <UniqueIdentifier>{939d508d-69f9-4469-a3a5-a4f972bf3db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libs">
+      <UniqueIdentifier>{16cedac9-21c2-4390-99ce-1ffe9384d849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Managers">
+      <UniqueIdentifier>{17e6faaa-8a71-43ee-9bf6-fb0bbb8e7573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Managers">
+      <UniqueIdentifier>{39919721-2323-4807-887e-4a1617683c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\App">
+      <UniqueIdentifier>{ba973dc0-0f7a-430d-bf75-7d1b5e1b0e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\App">
+      <UniqueIdentifier>{f9c50cdb-5d87-4a19-af54-31d46732f39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Act">
+      <UniqueIdentifier>{498049d0-d508-488e-895e-b2f5b60cfc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ViewObject">
+      <UniqueIdentifier>{ad2c9968-9af2-49bf-b6ea-c9ca4cb3a8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ViewObject">
+      <UniqueIdentifier>{9f22ee2a-7780-4426-97c5-e34459093862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Act">
+      <UniqueIdentifier>{6ed9f01d-5777-4b32-9e7e-26c0eac57fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Region">
+      <UniqueIdentifier>{529a91c0-881d-4b9b-a436-d4c1f43c1dbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlightGo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightGoDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightGoView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>头文件\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>头文件\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>头文件\Region</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Listen.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutView.h">
+      <Filter>头文件\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigLoader.h">
+      <Filter>头文件\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>头文件\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateTools.h">
+      <Filter>头文件\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager.h">
+      <Filter>头文件\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>头文件\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUtils.h">
+      <Filter>头文件\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>头文件\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonView.h">
+      <Filter>头文件\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightObject.h">
+      <Filter>头文件\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Actable.h">
+      <Filter>头文件\Act</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewObject.h">
+      <Filter>头文件\ViewObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonActors.h">
+      <Filter>头文件\Act</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardManager.h">
+      <Filter>头文件\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewObjectManager.h">
+      <Filter>头文件\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionLoader.h">
+      <Filter>头文件\Region</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonViewObjects.h">
+      <Filter>头文件\ViewObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonStructs.h">
+      <Filter>头文件\libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlightGo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightGoDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightGoView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>源文件\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>源文件\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutView.cpp">
+      <Filter>源文件\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigLoader.cpp">
+      <Filter>源文件\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager.cpp">
+      <Filter>源文件\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUtils.cpp">
+      <Filter>源文件\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>源文件\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewObject.cpp">
+      <Filter>源文件\ViewObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Actable.cpp">
+      <Filter>源文件\Act</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>源文件\Region</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonActors.cpp">
+      <Filter>源文件\Act</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardManager.cpp">
+      <Filter>源文件\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightObject.cpp">
+      <Filter>源文件\App</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionLoader.cpp">
+      <Filter>源文件\Region</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonViewObjects.cpp">
+      <Filter>源文件\ViewObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewObjectManager.cpp">
+      <Filter>源文件\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FlightGo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FlightGo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\config.ini">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FlightGoDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\FlightGo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\flight.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
